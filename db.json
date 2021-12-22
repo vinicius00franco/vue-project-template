@@ -7,6 +7,10 @@
     {
       "id": 2,
       "nome": "ByteBank 2.0"
+    },
+    {
+      "id": 3,
+      "nome": "Estudando padrões de projeto"
     }
   ],
   "tarefas": [
@@ -36,6 +40,15 @@
         "id": 2
       },
       "id": 3
+    },
+    {
+      "duracaoEmSegundos": 7,
+      "descricao": "Teste",
+      "projeto": {
+        "id": 3,
+        "nome": "Estudando padrões de projeto"
+      },
+      "id": 4
     }
   ]
 }
