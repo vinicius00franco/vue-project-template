@@ -25,7 +25,7 @@
     },
     {
       "duracaoEmSegundos": 2,
-      "descricao": "Refatoração do vuex",
+      "descricao": "Refatoração do vuex 4",
       "projeto": {
         "id": 1,
         "nome": "Alura Tracker 3.0"
