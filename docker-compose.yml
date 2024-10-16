@@ -1,0 +1,12 @@
+services:
+  vue-app:
+    container_name: web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000" # Mapeia a porta do container para a porta local
+    volumes:
+      - .:/app # Sincroniza os arquivos locais com o container
+    environment:
+      - NODE_ENV=development
